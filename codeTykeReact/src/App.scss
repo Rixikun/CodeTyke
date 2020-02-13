@@ -1,14 +1,14 @@
-@import 'scss/shell/Header';
-@import 'scss/shell/Footer';
-@import 'scss/shell/PageLoader';
+@import "scss/shell/Header";
+@import "scss/shell/Footer";
+@import "scss/shell/PageLoader";
 
-@import 'scss/utils/FlexStyles';
+@import "scss/utils/FlexStyles";
 
-@import 'scss/components/ProgressBar';
+@import "scss/components/ProgressBar";
 
-@import 'scss/buttons/Button';
+@import "scss/buttons/Button";
 
-body{
+body {
   background-image: url("/assets/background.png");
   background-position: center;
   background-size: cover;
@@ -24,64 +24,70 @@ body{
   justify-content: center;
 }
 
-#mainWrapper{
+#mainWrapper {
   max-width: 800px;
   margin: 40px auto 80px auto;
 }
 
 #questionHeader {
-    text-align: center;
-    color: #00bdff;
-    font-weight: 600;
+  text-align: center;
+  color: #00bdff;
+  font-weight: 600;
 }
-#questionHeaderContainer{
+#questionHeaderContainer {
   margin: 25px 10px;
 }
-#questionHeaderContainer div{
+#questionHeaderContainer div {
   margin: 10px;
 }
-#questionSubHeader{
+#questionSubHeader {
   font-size: 12px;
   text-align: center;
 }
 
 @media only screen and (max-width: 600px) {
-  #mainWrapper { margin-top: 20px; }
-  #questionSubHeader{ display: none;}
-  #questionHeaderContainer { margin: 20px 10px;}
+  #mainWrapper {
+    margin-top: 20px;
+  }
+  #questionSubHeader {
+    display: none;
+  }
+  #questionHeaderContainer {
+    margin: 20px 10px;
+  }
 }
 
-
-.selectionImageContainer img{
+.selectionImageContainer img {
   width: 150px;
 }
 #outerBox {
-    background-color: white;
-    box-shadow: 0px 0px 20px -15px;
-    padding: 0px 0px 20px 0;
-    border-radius: 10px;
-    margin: 0 auto;
-    text-align: center;
+  background-color: white;
+  box-shadow: 0px 0px 20px -15px;
+  padding: 0px 0px 20px 0;
+  border-radius: 10px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 @media only screen and (max-width: 800px) {
-  #outerBox { border-radius: 0; }
+  #outerBox {
+    border-radius: 0;
+  }
 }
-
-.selectionBox{
+.selectionBox {
   padding: 10px;
   margin: 10px;
   border: solid 1px lightgrey;
   border-radius: 5px;
 }
-.checkboxText{
+.checkboxText {
   text-align: center;
 }
-.checkbox{
+.checkbox {
   float: left;
 }
 
 #submitButtonContainer {
-    height: 50px;
-    position: relative;
+  height: 50px;
+  position: relative;
 }
